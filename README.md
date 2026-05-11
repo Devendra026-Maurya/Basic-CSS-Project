@@ -65,10 +65,5 @@ The main goal of this repository is to strengthen my understanding of:
 
 ---
 
-## 📸 Screenshots
-
-You can add screenshots of each project here to make the repository more visually appealing.
-
-```markdown
-![Survey Form Screenshot](screenshots/survey-form.png)
-![Parallax Website Screenshot](screenshots/parallax.png)
+## Author
+Devendra Maurya
