@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesdoc.css">
+  <title>Technical Documentation</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Java Tutorial Documentation</header>
+    <a class="nav-link" href="#Introduction_Java">Introduction Java</a>
+    <a class="nav-link" href="#Java_Used">Java Used</a>
+    <a class="nav-link" href="#Java_Basic">Java Basic</a>
+	<a class="nav-link" href="#Java_Hello_World_Program">Java Hello World Program</a>
+    <a class="nav-link" href="#Java_Keywords">Java Keywords</a>
+    <a class="nav-link" href="#Java_Data_Types">Java Data Types</a>
+    <a class="nav-link" href="#Java_Variables">Java Variables</a>
+    <a class="nav-link" href="#Java_Operators">Java Operators</a>
+    <a class="nav-link" href="#Java_Identifiers">Java Identifiers</a>
+  </nav>
+  
+  <main id="main-doc">
+    <section class="main-section" id="Introduction_Java">
+      <header>Introduction Java</header>
+      <p>Javais a high-level, object-oriented programming language used to build applications across platforms—from web and 
+	  mobile apps to enterprise software. It is known for its Write Once, Run Anywhere capability, meaning code written in Java can run on any 
+	  device that supports the Java Virtual Machine (JVM).Java shares similarities with other C-based languages like C++ and C#, especially in
+	  terms of syntax and structure. Its robustness, cross-platform compatibility, and strong memory management have made it a go-to language 
+	  or developers worldwide for over two decades.</p>
+    </section>
+	
+    <section class="main-section" id="Java_Used">
+      <header>Java Used</header>
+      <p>Java is one of the most popular and widely used programming language:</p>
+      <ol>
+        <li>Used to develop mobile apps, desktop apps, web apps, web servers, games, and enterprise-level systems.</li>
+        <li>Java was invented by James Gosling and Oracle currently owns it. JDK 23 is the latest version of Java.</li>
+		<li>Java's syntax is similar to C/C++.</li>
+        <li>Popular platforms like LinkedIn, Amazon, and Netflix rely on Java for their back-end architecture, showcasing 
+		its stability and scalability across different environments.</li>
+		<li>Popularity is so high that 3 Billion+ devices use Java across the world</li><br>
+		<code><pre>// A Java program to print "Hello World" 
+				public class Geeks { 
+					public static void main(String args[])
+					{ 
+						System.out.println("Hello World"); 
+					} 
+				}
+
+				// Output:"Hello World"</pre>
+				</code>
+      </ol>
+    </section>
+	
+	<section class="main-section" id="Java_Basic">
+      <header>Java Basic</header>
+      <p>Java Syntax refers to a set of rules that defines how Java programs are written and interpreted by the compiler. 
+	  These rules ensure that your code is readable, logically correct, and error-free.</p>
+	  <p>Terminologies of a Basic Java Program: </p>
+      <ol>
+        <li>Class Declaration: Every Java program starts with a class declaration using the class keyword. 
+		“A class is a blueprint of an object” and we can also define class as a logical template that shares common properties and methods.</li>
+        <li>Object: The object is an instance of a class. It is an entity that has behavior and state.</li>
+		<li>Main Method: The public static void main(String args[]) method is the entry point where the program starts execution.</li>
+        <li>Statements: Each line of code inside the method must end with a semicolon(;)</li>
+		</ol> 
+		<p>Java Syntax Key Elements</p> 
+			<ol>
+			<li>Single line Comment</li>
+			<code>// This is a single-line comment</code>
+			<li>Multiline line Comment</li>
+			<code>/* This is a multi-line comment */</code>
+			<li>Documentation Comment,It is also known as a doc comment</li>
+			<code>/** This is a doc comment */</code>
+			</ol>
+    </section>
+	
+	<section class="main-section" id="Java_Hello_World_Program">
+      <header>Java Hello World Program</header>
+      <p>Java is one of the most popular and widely used programming languages and platforms. In this article, 
+	  we will learn how to write a simple Java Program. This article will guide you on how to write, compile, 
+	  and run your first Java program.</p>
+	  <p>Steps to Implement a Java Program </p>
+      <ol>
+        <li>Create a Java Program: Java programs can be written in a text editor (Notepad, VS Code) or an IDE (IntelliJ, Eclipse, NetBeans).</li>
+		<code><pre>// Simple Java Hello World Program
+			public class HelloWorld
+			{
+				public static void main(String[] args)
+				{
+					System.out.println(“Hello, World”);
+				}
+			}</pre>
+		</code>
+		<li>Note: Save the file as HelloWorld.java</li>
+        <li>Compile the Java Program: To compile the program, we must run the Java compiler (javac), with the name of the source file on 
+		the “command prompt” (Windows) or “Terminal” (Mac/Linux) as follows:</li>
+		<code><pre> javac HelloWorld.java </pre></code>
+		
+		<li>Note: Before running the command, make sure you navigate to the correct directory where your HelloWorld.java file is saved.
+		If everything is OK, the compiler creates a file called HelloWorld.class which contains the byte code of the program.</li>
+        <li>Run the Java Program: We need to use the Java Interpreter to run a program. Execute and compile Java program with below command:</li>
+		<code><pre> java HelloWorld </pre></code>
+		
+		</ol> 
+		
+    </section>
+	
+	<section class="main-section" id="Java_Keywords">
+      <header>Java Keywords</header>
+      <p>In Java, keywords are the reserved words that have some predefined meanings and are used by the Java compiler for some internal 
+	  process or represent some predefined actions. These words cannot be used as identifiers such as variable names, method names, 
+	  class names, or object names. </p>
+	 
+      <ol>
+        <li>Java contains a list of keywords or reserved words which are also highlighted with different colors be it an IDE or editor in 
+		order to segregate the differences between flexible words and reserved words. As of Java 21, there are 53 keywords defined in Java.</li>
+		<code><pre>// Java Program to demonstrate Keywords
+		class Geeks {
+			
+			public static void main(String[] args)
+			{
+				// Using final and int keyword
+				final int x = 10;
+			  
+				// Using if and else keywords
+				if(x > 10){
+				   System.out.println("Failed");
+				}
+				else {
+				   System.out.println("Successful demonstration"
+									  +" of keywords.");
+				}
+			}
+		}</pre>
+		</code>
+		<li>As of Java 21, there are 53 keywords defined in Java. They are listed below in the table with the primary action associated with them.</li>
+		<code><pre>
+			abstract	continue	for	new	switch
+			assert***	default	goto*	package	synchronized
+			boolean	do	if	private	this
+			break	double	implements	protected	throw
+			byte	else	import	public	throws
+			case	enum****	instanceof	return	transient
+			catch	extends	int	short	try
+			char	final	interface	static	void
+			class	finally	long	strictfp**	volatile
+			const*	float	native	super	while
+			</pre></code>
+		</ol> 	
+    </section>
+   
+   
+   <section class="main-section" id="Java_Data_Types">
+      <header>Java Data Types</header>
+      <p>Java is statically typed and also a strongly typed language because each type of data (such as integer, character, hexadecimal, 
+	  packed decimal, and so forth) is predefined as part of the programming language and all constants or variables defined for a given 
+	  program must be declared with the specific data types.Data types in Java are of different sizes and values that can be stored in a 
+	  variable that is made as per convenience and circumstances to cover up all test cases.</p>
+	  <p>Why Data Types Matter in Java? </p>
+      <ol>
+        <li>Memory Efficiency: Choosing the right type (byte vs int) saves memory.</li>
+		<li>Performance: Proper types reduce runtime errors.</li>
+		<li>Code Clarity: Explicit typing makes code more readable.</li>
+		<code><pre>// Java Program to demonstrate int data-type
+					import java.io.*;
+
+					class GFG 
+					{
+						public static void main (String[] args) 
+						{
+							// declaring two int variables
+							int a = 10;
+							int b = 20;
+						  
+							System.out.println( a + b );
+						}
+					}
+					Output:30
+				<code>	</pre>
+		</ol> 
+		
+    </section>
+   
+  
+   <section class="main-section" id="Java_Variables">
+      <header>Java Variables</header>
+      <p>In Java, variables are containers that store data in memory. Understanding variables plays a very important role as 
+	  it defines how data is stored, accessed, and manipulated.</p>
+	  <p>Key Components of Variables in Java:</p>
+      <ol>
+        <li>Data Type: Defines the kind of data stored (e.g., int, String, float).</li>
+		<li>Variable Name: A unique identifier following Java naming rules.</li>
+		<li>Value: The actual data assigned to the variable.</li>
+		<li>Example of variable declaration:</li>
+		<code><pre>
+		int age = 25;             // Integer variable  
+
+
+		String name = “Java”;     // String variable  
+
+
+		double salary = 50000.50; // Double variable  
+</pre><code>
+		</ol> 
+		
+    </section>
+   
+   
+   <section class="main-section" id="Java_Operators">
+      <header>Java Operators</header>
+      <p>Java operators are special symbols that perform operations on variables or values. These operators are essential 
+	  in programming as they allow you to manipulate data efficiently. They can be classified into different categories based 
+	  on their functionality.</p>
+	  <p>Types of Operators in Java</p>
+      <ol>
+        <li>Arithmetic Operators</li>
+		<li>Unary Operators</li>
+		<li>Assignment Operator</li>
+		<li>Relational Operators</li>
+		<li>Logical Operators</li>
+		<li>Ternary Operator</li>
+		<li>Bitwise Operators</li>
+		<li>Shift Operators</li>
+		<li>instance of operator</li>
+		<li>perform arithmetic operations on two integer variables.</li>
+		<code><pre>
+		// Java program to show the use of + and - operators
+			public class Geeks 
+			{  
+				public static void main(String[] args) 
+				{
+				  // Declare and initialize variables
+					int num1 = 500;
+					int num2 = 100;
+					
+					// Using the + (addition) operator
+					int sum = num1 + num2;
+					System.out.println("The Sum is: "+sum);
+					
+					// Using the - (subtraction) operator
+					int diff = num1 - num2;
+					System.out.println("The Difference is: "+diff);
+					
+				}
+			} 
+		</pre><code>
+		</ol> 
+		
+    </section>
+   
+   <section class="main-section" id="Java_Identifiers">
+      <header>Java Identifiers</header>
+      <p>An identifier in Java is the name given to Variables, Classes, Methods, Packages, Interfaces, etc. These are the unique names 
+	  used to identify programming elements. Every Java Variable must be identified with a unique name.</p>
+	  <p>Rules For Naming Java Identifiers</p>
+      <ol>
+        <li>The only allowed characters for identifiers are all alphanumeric characters([A-Z],[a-z],[0-9]), ‘$‘(dollar sign) and 
+		‘_‘ (underscore). For example, “geek@” is not a valid Java identifier as it contains a ‘@’, a special character.</li>
+		<li>Identifiers should not start with digits([0-9]). For example, “123geeks” is not a valid Java identifier.</li>
+		<li>Java identifiers are case-sensitive.</li>
+		<li>There is no limit on the length of the identifier, but it is advisable to use an optimum length of 4 – 15 letters only.</li>
+		<li>Reserved Words can’t be used as an identifier. For example, “int while = 20;” is an invalid statement as a while is a reserved word.</li>
+	 
+		<li>Example:</li>
+		<code><pre>
+		public class Test
+		{
+			public static void main(String[] args)
+			{
+				int a = 20;
+			}
+		}
+				</pre><code>
+		</ol> 
+		
+    </section>
+  </main>
+</body>
+</html>
+<

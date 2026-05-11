@@ -1,0 +1,87 @@
+ 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Build a Survey Form</title>
+	<link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+	<main>
+	<header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Let us know how we can improve our Service</p>
+	  </header>
+	  
+      <form id="survey-form">
+	  <div class="form-group">
+        <label for="name" id="name-label">Name: <input type="text" id="name" name="names" placeholder="Enter the name" required></label>
+		</div>
+	  <div class="form-group">
+        <label for="email" id="email-label">Email: <input type="email" id="email" name="emails" placeholder="Enter the email" required></label>
+		</div>
+	  <div class="form-group">
+        <label for="age" id="number-label">Age: <input type="number" id="number" min="18" max="45" name="age" placeholder="Enter the age" required></label>
+		</div>
+
+    <div class="form-group">
+        <label for="occupation">Choose A Role That Best Describes You
+          <select name="occupation" id="dropdown">
+            <option value="">select any one</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Part Time Job</option>
+            <option value="4">Perfer Not to say</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+		</div>
+
+    <div class="form-group">
+        <div class="radio-group"><label for="rating">Would You Recommend Our Course To A Friend?</label></div>
+        <div class="radio-group"><label for="maybe"><input type="radio" name="r1" id="maybe" value="maybe"> Maybe</label></div>
+        <div class="radio-group"><label for="define"><input type="radio" name="r1" id="define" value="define"> Definitely</label></div>
+        <div class="radio-group"><label for="notsure"><input type="radio" name="r1" id="notsure" value="notsure"> NotSure</label></div>
+        <div class="radio-group"><label for="likely"><input type="radio" name="r1" id="likely" value="likely"> Likely</label></div>
+	</div>
+
+<div class="form-group">
+        <label for="liked">Select Things That You Liked About Our Course
+          <select name="liked" id="dropmenu">
+            <option value="">select an option</option>
+            <option value="11">Easy Understand of Course</option>
+            <option value="22">Descision to Right Goal</option>
+            <option value="33">Mock Test and Interview</option>
+            <option value="44">Best Carrer Guidence</option>
+            <option value="55">Other</option>
+          </select>
+        </label>
+	</div>	
+
+<div class="form-group">
+        <div class="checkbox-group"><label for="choice">Would You Recommend Our Course To A Friend?</label></div>
+        <div class="checkbox-group"><label for="front"><input type="checkbox" name="frontend" id="front" value="frontend"> Front End Development</label></div>
+        <div class="checkbox-group"><label for="back"><input type="checkbox" name="backend" id="back" value="backend"> Back End Development</label></div>
+        <div class="checkbox-group"><label for="software"><input type="checkbox" name="softdev" id="software" value="softdev"> Software Development</label></div>
+        <div class="checkbox-group"><label for="java"><input type="checkbox" name="javadev" id="java" value="javadev"> Java Development</label></div>
+        <div class="checkbox-group"><label for="data"><input type="checkbox" name="datasci" id="data" value="datasci"> Data Science</label></div>
+        <div class="checkbox-group"><label for="AI"><input type="checkbox" name="AIML" id="AI" value="AIML"> Artificial Intelligent & Machine Learning</label></div>
+</div>
+
+<div class="form-group">
+      <label for="remark">Comment and Reviews</label>
+      <textarea name="remark" id="remark" placeholder="Tell Us How Can We Improve.."></textarea>
+	</div>
+
+       <div class="form-group">
+	   <button id="submit" type="submit">Submit</button>
+	   </div>
+       
+        </form>
+		</main>
+      </body>
+  </html>
+
+ 

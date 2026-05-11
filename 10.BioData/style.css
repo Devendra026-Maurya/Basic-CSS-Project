@@ -1,0 +1,197 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+       
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 50px;;
+    }
+    #personal_data{
+         display: flex;
+        padding-top:30px;
+        padding-left:300px;
+    }  
+    
+ 
+    .form-group {
+      margin-bottom: 25px;
+
+    }
+
+    .form-label {
+      display: inline;
+      font-weight: bold;
+    }
+
+    .underline-input {
+      border: none;
+      border-bottom: 2px solid #000;
+      outline: none;
+      font-size: 16px;
+    }
+legend{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+fieldset{
+    width:850px;
+    padding:30px;
+}
+ 
+
+.underlinetext1 {
+      width: 580px;
+ }
+
+/*persent Address*/
+
+.underlinetext2 {
+      width: 500px;
+ }
+
+/*permanent Address*/
+.underlinetext3  {
+    width: 480px;
+      
+}
+
+.underlinetext4  {
+    width: 523px;
+      
+}
+.underlinetext5  {
+    width: 523px;
+      
+}
+.underlinetext6  {
+    width: 495px;
+      
+}
+.underlinetext7  {
+    width: 300;
+      
+}
+
+.underlinetext8  {
+    width: 450px;
+     
+}
+.place{
+    margin-left: 20px;
+}
+
+.underlinetext9  {
+    width: 370px;
+      
+}
+
+.underlinetext10 {
+    width: 315px;
+      
+}
+
+.underlinetext11 {
+    width: 345px;
+      
+}
+
+.underlinetext12 {
+    width: 730px;
+      
+}
+
+.underlinetext13 {
+    width: 325px;
+      
+}
+.underlinetext14 {
+    width: 285px;
+      
+}
+
+.underlinetext15 {
+    width: 300px;
+      
+}
+.underlinetext16 {
+    width: 520px;
+      
+}
+
+.underlinetext17 {
+    width: 168px;
+      
+}
+
+.underlinetext18 {
+    width: 300px;
+      
+}
+
+.underlinetext19 {
+    width: 298px;
+      
+}
+.underlinetext20 {
+    width: 305px;
+      
+}
+.underlinetext21 {
+    width: 315px;
+      
+}
+.underlinetext22 {
+    width: 698px;
+      
+}
+.underlinetext23 {
+    width: 723px;
+      
+}
+.underlinetext24 {
+    width: 710px;
+      
+}
+.underlinetext25 {
+    width: 225px;
+      
+}
+.form-group-photo{
+    width:200px;
+    height:220px;
+    border:1px solid black;
+    position: absolute;
+    top:240px;
+    left:1000px;
+}
+ 
+img{
+    width:200px;
+    height:200px;
+    position: absolute;
+    top:10px;
+    left:5px;
+}
+
+.child-name{
+    padding-left:133px;
+}
+.child-birth{
+    padding-left:97px;
+}
+
+#hereby{
+    margin-top: 50px;
+}
+
+hr{
+    margin-left: 0;
+    margin-top: 90px;
+    width: 400px;
+   border: 1px solid black;
+}
